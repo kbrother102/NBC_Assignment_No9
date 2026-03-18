@@ -32,19 +32,15 @@ UI
 
 ### 1-1 빌드에 모듈넣기
 
-[##_Image|kage@c3KCDZ/dJMcabjcxq3/AAAAAAAAAAAAAAAAAAAAAJCKUX-imvB81csTQl9Wh00k6E1aApGqrvv3yrvk_TT0/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1774969199&amp;allow_ip=&amp;allow_referer=&amp;signature=qG9T%2BHk3Wcm6Vbqy3Xz%2BextYpDc%3D|CDM|1.3|{"originWidth":827,"originHeight":472,"style":"alignCenter","caption":"bulid.cs에 UI관련 모듈 추가"}_##]
+
 
 ### 1-2 UI 제작 및 바인딩
 
-[##_Image|kage@bbYvPq/dJMcabQZ8c2/AAAAAAAAAAAAAAAAAAAAADXPbweQfw5jo23tbcGcx5LB2q9_OBtTQ7xBCjw1hXEO/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1774969199&amp;allow_ip=&amp;allow_referer=&amp;signature=OTjJg2N%2Bbo6sbcH1CAQGh%2BTX9Fc%3D|CDM|1.3|{"originWidth":542,"originHeight":277,"style":"alignCenter"}_##]
 
-[##_Image|kage@JVKn2/dJMcaaxOx5a/AAAAAAAAAAAAAAAAAAAAANy7vDsmtxV1EA9VKh7BMwLfhjsr4e27WaUdRLUAgS8_/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1774969199&amp;allow_ip=&amp;allow_referer=&amp;signature=iWCOGyHpXr3fgXqu1FE4Y4MpuUw%3D|CDM|1.3|{"originWidth":475,"originHeight":158,"style":"alignCenter","caption":"두개를 나눳다."}_##]
-
-[##_Image|kage@bAeUZU/dJMcafMF52O/AAAAAAAAAAAAAAAAAAAAAPdsxBy_pgSYbdQ0qQ-izpPQfMdaNq4Qw45bYstSBL_m/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1774969199&amp;allow_ip=&amp;allow_referer=&amp;signature=XY4ZYnLis%2BEx37e%2BP1i3X%2BDZAu4%3D|CDM|1.3|{"originWidth":1033,"originHeight":643,"style":"alignCenter","caption":"UI Cpp 부분"}_##]
 
 두개가 있으니 두개를 델리게이트 바인딩.
 
-[##_Image|kage@lUgA7/dJMcagkth8z/AAAAAAAAAAAAAAAAAAAAAE2rXn7HjXt9dJEibevt4zbsljdg0Nvy5zRS5z6Pw9RI/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1774969199&amp;allow_ip=&amp;allow_referer=&amp;signature=YMVE02Q51IUVlNLutXHxiXoxM%2B8%3D|CDM|1.3|{"originWidth":988,"originHeight":934,"style":"alignCenter","caption":"UI Cpp 부분"}_##][##_Image|kage@pMoNY/dJMcabKhlsa/AAAAAAAAAAAAAAAAAAAAACbz3QaZVykT-yMnwEvC3lzOvgnoINbseRWo-bXIXlR2/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1774969199&amp;allow_ip=&amp;allow_referer=&amp;signature=5ec7aoyj5As5YHmd9qxDeQ3VyPQ%3D|CDM|1.3|{"originWidth":1158,"originHeight":891,"style":"alignCenter","caption":"PlayerController cpp 부분"}_##]
+
 
 ---
 
@@ -159,7 +155,7 @@ ServerRPCPrintMessageString
 
 UI에서 String입력 -> SetChattingMessage 호출! -> ServerRPC 호출! -> Server에서 ServerRPC 실행 -> ClientPrint 호출! -> Client에서 ClientRPC 실행! -> PrintChatMessage 호출! -> 글자 프린트
 
-[##_Image|kage@tAQ5L/dJMcafFTcW6/AAAAAAAAAAAAAAAAAAAAAAjbsAU9udioiyoGzE5vcbBPCHkF1xDRRmlb2FaXcqpA/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1774969199&amp;allow_ip=&amp;allow_referer=&amp;signature=x81%2Bkhc37XbpQmCeHeIU%2BGjyp9g%3D|CDM|1.3|{"originWidth":1200,"originHeight":589,"style":"alignCenter","caption":"잘 된 다 !"}_##]
+
 
 ---
 
@@ -194,7 +190,7 @@ PlayerController
 
 SetChattingMessage에서 PlayerState의 PlayerName을 가져와서 붙여준다
 
-[##_Image|kage@bbH0ST/dJMcacJba0w/AAAAAAAAAAAAAAAAAAAAAFsRwhdGZWfhORWIDrR8o923WXioHAtcrNdt-O2jNtv7/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1774969199&amp;allow_ip=&amp;allow_referer=&amp;signature=iX6wQrG6XOkZJ5N8bZ9pKb4oJSY%3D|CDM|1.3|{"originWidth":753,"originHeight":563,"style":"alignCenter","caption":"잘 된 다!"}_##]
+
 
 ---
 
@@ -379,11 +375,10 @@ void AKHBBGameModeBase::PrintMessageToClient(const AKHBBPlayerController* Target
 
 플레이어 스테이트에 최대 횟수와 현재 횟수 변수 만들고 Replicated
 
-[##_Image|kage@cdFCjS/dJMcach6V4C/AAAAAAAAAAAAAAAAAAAAAHT_4Zrz0p0WYsV8sXRSofkLJsr90WvenxS2Azubfrr-/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1774969199&amp;allow_ip=&amp;allow_referer=&amp;signature=JPdU1fkuuKBPjh67vmuTOoCklWk%3D|CDM|1.3|{"originWidth":1252,"originHeight":457,"style":"alignCenter"}_##]
 
 이걸 게임모드 베이스에서 사용할 예정이다.
 
-[##_Image|kage@eweVBv/dJMcahwXHMp/AAAAAAAAAAAAAAAAAAAAAH7iZxvpjnoEiP3sUqTPT-TwXgusxH9wl0I4vdvIXDXR/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1774969199&amp;allow_ip=&amp;allow_referer=&amp;signature=axR%2BLu5Vb%2FZUrbV7RCqpk01XYao%3D|CDM|1.3|{"originWidth":1187,"originHeight":105,"style":"alignCenter","caption":"결국 두개로 나눳다"}_##]
+
 
 ```
 FString PlayerInfo = KHBBPlayerState->GetPlayerInfoString();
